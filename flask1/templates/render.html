@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Final_Python</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+        <link href="../static/hf.css" rel="stylesheet"/>
+    
+</head>
+<body>
+        <style>
+        .tab {
+            overflow: hidden;
+             background:linear-gradient(to right ,lightsalmon 60%, lightgrey);
+        }
+
+        .tab button {
+            background-color: salmon;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 16px;
+            transition: 0.3s;
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        .chart-container {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+    </style>
+    <header>世界500强公司折射的中美经济结构差异化现象探析</header>
+    <div class="tab">
+            <button class="tablinks" onclick="showChart(event, 'd4cb947bd43d470984a83cfe993466bb')">bar_base</button>
+            <button class="tablinks" onclick="showChart(event, 'e0dd663899294df8b68668828b205608')">wordcloud_diamond</button>
+            <button class="tablinks" onclick="showChart(event, 'b6468fada12b419f8d8b575cab53c84c')">map_world</button>
+            <button class="tablinks" onclick="showChart(event, '7baf017363bd4ac496277c3f997a1e00')">table_base</button>
+            <button class="tablinks" onclick="showChart(event, '93ed617d3dcd48abb8246e07cd5e8322')">美国分布图</button>
+            <button class="tablinks" onclick="showChart(event, '6fc446f419be4c5f9864efa02e6efd4a')">中美对比图</button>
+            <button class="tablinks" onclick="showChart(event, '397a8d77d7524826925f57b144203d7c')">美国</button>
+            <button class="tablinks" onclick="showChart(event, '2ee2e0ea3e064ecb80830d74ae70c6b3')">中国</button>
+    </div>
+
+    <div id="d4cb947bd43d470984a83cfe993466bb" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_d4cb947bd43d470984a83cfe993466bb = echarts.init(
+            document.getElementById('d4cb947bd43d470984a83cfe993466bb'), 'white', {renderer: 'canvas'});
+        var option_d4cb947bd43d470984a83cfe993466bb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u56fd\u5bb6",
+            "data": [
+                129,
+                121,
+                52,
+                31,
+                29,
+                16,
+                16,
+                14,
+                13,
+                11,
+                9,
+                8,
+                7,
+                7,
+                6,
+                4,
+                4,
+                4,
+                3,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "line",
+            "name": "\u56fd\u5bb6",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "\u4e2d\u56fd",
+                    129
+                ],
+                [
+                    "\u7f8e\u56fd",
+                    121
+                ],
+                [
+                    "\u65e5\u672c",
+                    52
+                ],
+                [
+                    "\u6cd5\u56fd",
+                    31
+                ],
+                [
+                    "\u5fb7\u56fd",
+                    29
+                ],
+                [
+                    "\u82f1\u56fd",
+                    16
+                ],
+                [
+                    "\u97e9\u56fd",
+                    16
+                ],
+                [
+                    "\u745e\u58eb",
+                    14
+                ],
+                [
+                    "\u52a0\u62ff\u5927",
+                    13
+                ],
+                [
+                    "\u8377\u5170",
+                    11
+                ],
+                [
+                    "\u897f\u73ed\u7259",
+                    9
+                ],
+                [
+                    "\u5df4\u897f",
+                    8
+                ],
+                [
+                    "\u5370\u5ea6",
+                    7
+                ],
+                [
+                    "\u6fb3\u5927\u5229\u4e9a",
+                    7
+                ],
+                [
+                    "\u610f\u5927\u5229",
+                    6
+                ],
+                [
+                    "\u58a8\u897f\u54e5",
+                    4
+                ],
+                [
+                    "\u7231\u5c14\u5170",
+                    4
+                ],
+                [
+                    "\u4fc4\u7f57\u65af",
+                    4
+                ],
+                [
+                    "\u65b0\u52a0\u5761",
+                    3
+                ],
+                [
+                    "\u6c99\u7279\u963f\u62c9\u4f2f",
+                    2
+                ],
+                [
+                    "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+                    1
+                ],
+                [
+                    "\u5362\u68ee\u5821",
+                    1
+                ],
+                [
+                    "\u571f\u8033\u5176",
+                    1
+                ],
+                [
+                    "\u4e39\u9ea6",
+                    1
+                ],
+                [
+                    "\u9a6c\u6765\u897f\u4e9a",
+                    1
+                ],
+                [
+                    "\u5965\u5730\u5229",
+                    1
+                ],
+                [
+                    "\u632a\u5a01",
+                    1
+                ],
+                [
+                    "\u6ce2\u5170",
+                    1
+                ],
+                [
+                    "\u6cf0\u56fd",
+                    1
+                ],
+                [
+                    "\u745e\u5178",
+                    1
+                ],
+                [
+                    "\u82ac\u5170",
+                    1
+                ],
+                [
+                    "\u82f1\u56fd ",
+                    1
+                ],
+                [
+                    "\u963f\u62c9\u4f2f\u8054\u5408\u914b\u957f\u56fd",
+                    1
+                ],
+                [
+                    "\u6bd4\u5229\u65f6",
+                    1
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u56fd\u5bb6",
+                "\u56fd\u5bb6"
+            ],
+            "selected": {
+                "\u56fd\u5bb6": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u4e2d\u56fd",
+                "\u7f8e\u56fd",
+                "\u65e5\u672c",
+                "\u6cd5\u56fd",
+                "\u5fb7\u56fd",
+                "\u82f1\u56fd",
+                "\u97e9\u56fd",
+                "\u745e\u58eb",
+                "\u52a0\u62ff\u5927",
+                "\u8377\u5170",
+                "\u897f\u73ed\u7259",
+                "\u5df4\u897f",
+                "\u5370\u5ea6",
+                "\u6fb3\u5927\u5229\u4e9a",
+                "\u610f\u5927\u5229",
+                "\u58a8\u897f\u54e5",
+                "\u7231\u5c14\u5170",
+                "\u4fc4\u7f57\u65af",
+                "\u65b0\u52a0\u5761",
+                "\u6c99\u7279\u963f\u62c9\u4f2f",
+                "\u5370\u5ea6\u5c3c\u897f\u4e9a",
+                "\u5362\u68ee\u5821",
+                "\u571f\u8033\u5176",
+                "\u4e39\u9ea6",
+                "\u9a6c\u6765\u897f\u4e9a",
+                "\u5965\u5730\u5229",
+                "\u632a\u5a01",
+                "\u6ce2\u5170",
+                "\u6cf0\u56fd",
+                "\u745e\u5178",
+                "\u82ac\u5170",
+                "\u82f1\u56fd ",
+                "\u963f\u62c9\u4f2f\u8054\u5408\u914b\u957f\u56fd",
+                "\u6bd4\u5229\u65f6"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Overlap-line+scatter"
+        }
+    ]
+};
+        chart_d4cb947bd43d470984a83cfe993466bb.setOption(option_d4cb947bd43d470984a83cfe993466bb);
+    </script>
+                <div id="e0dd663899294df8b68668828b205608" class="chart-container" style="width:1200px; height:500px;"></div>
+    <script>
+        var chart_e0dd663899294df8b68668828b205608 = echarts.init(
+            document.getElementById('e0dd663899294df8b68668828b205608'), 'white', {renderer: 'canvas'});
+        var option_e0dd663899294df8b68668828b205608 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "name": "\u56fd\u5bb6",
+            "shape": "diamond",
+            "rotationRange": [
+                0,
+                0
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                20,
+                100
+            ],
+            "data": [
+                {
+                    "name": "China",
+                    "value": 129,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,90,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "United States",
+                    "value": 121,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,7,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "Japan",
+                    "value": 52,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,50,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "France",
+                    "value": 31,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,113,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "Germany",
+                    "value": 29,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,26,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "Korea",
+                    "value": 16,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,4,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 16,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,9,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 14,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,37,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "Canada",
+                    "value": 13,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,93,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "Holland",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,102,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Spain",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,129,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "Brazil",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,157,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "India",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,37,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "Australia",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,91,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "Italy",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(128,103,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mexico",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,14,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "Russia",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,45,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "Ireland",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,23,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "Singapore",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,146,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,15,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "Thailand",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,52,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "United Kingdom ",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,113,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "Sweden",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,128,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,147,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "Norway",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,1,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "Poland",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,58,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "Malaysia",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,32,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,140,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Finland",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,88,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "Denmark",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,60,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,142,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,158,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "Austria",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(131,144,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "The United Arab Emirates",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,124,8)"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "WordCloud-shape-diamond",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_e0dd663899294df8b68668828b205608.setOption(option_e0dd663899294df8b68668828b205608);
+    </script>
+                <div id="b6468fada12b419f8d8b575cab53c84c" class="chart-container" style="width:1200px; height:500px;"></div>
+    <script>
+        var chart_b6468fada12b419f8d8b575cab53c84c = echarts.init(
+            document.getElementById('b6468fada12b419f8d8b575cab53c84c'), 'white', {renderer: 'canvas'});
+        var option_b6468fada12b419f8d8b575cab53c84c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u4e16\u754c",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 129
+                },
+                {
+                    "name": "United States",
+                    "value": 121
+                },
+                {
+                    "name": "Japan",
+                    "value": 52
+                },
+                {
+                    "name": "France",
+                    "value": 31
+                },
+                {
+                    "name": "Germany",
+                    "value": 29
+                },
+                {
+                    "name": "Korea",
+                    "value": 16
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 16
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 14
+                },
+                {
+                    "name": "Canada",
+                    "value": 13
+                },
+                {
+                    "name": "Holland",
+                    "value": 11
+                },
+                {
+                    "name": "Spain",
+                    "value": 9
+                },
+                {
+                    "name": "Brazil",
+                    "value": 8
+                },
+                {
+                    "name": "India",
+                    "value": 7
+                },
+                {
+                    "name": "Australia",
+                    "value": 7
+                },
+                {
+                    "name": "Italy",
+                    "value": 6
+                },
+                {
+                    "name": "Mexico",
+                    "value": 4
+                },
+                {
+                    "name": "Russia",
+                    "value": 4
+                },
+                {
+                    "name": "Ireland",
+                    "value": 4
+                },
+                {
+                    "name": "Singapore",
+                    "value": 3
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "value": 2
+                },
+                {
+                    "name": "Thailand",
+                    "value": 1
+                },
+                {
+                    "name": "United Kingdom ",
+                    "value": 1
+                },
+                {
+                    "name": "Sweden",
+                    "value": 1
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 1
+                },
+                {
+                    "name": "Norway",
+                    "value": 1
+                },
+                {
+                    "name": "Poland",
+                    "value": 1
+                },
+                {
+                    "name": "Malaysia",
+                    "value": 1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1
+                },
+                {
+                    "name": "Finland",
+                    "value": 1
+                },
+                {
+                    "name": "Denmark",
+                    "value": 1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 1
+                },
+                {
+                    "name": "Belgium",
+                    "value": 1
+                },
+                {
+                    "name": "Austria",
+                    "value": 1
+                },
+                {
+                    "name": "The United Arab Emirates",
+                    "value": 1
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e16\u754c"
+            ],
+            "selected": {
+                "\u4e16\u754c": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Map-\u4e16\u754c\u5730\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 200,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140
+    }
+};
+        chart_b6468fada12b419f8d8b575cab53c84c.setOption(option_b6468fada12b419f8d8b575cab53c84c);
+    </script>
+                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: lightpink;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="7baf017363bd4ac496277c3f997a1e00" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > Table</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <tr>
+        <th>City name</th>
+        <th>cnt</th>
+    </tr>
+    <tr>
+        <td>中国</td>
+        <td>129</td>
+    </tr>
+    <tr>
+        <td>美国</td>
+        <td>121</td>
+    </tr>
+    <tr>
+        <td>日本</td>
+        <td>52</td>
+    </tr>
+    <tr>
+        <td>法国</td>
+        <td>31</td>
+    </tr>
+    <tr>
+        <td>德国</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>英国</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>韩国</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>瑞士</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <td>加拿大</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>荷兰</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>西班牙</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>巴西</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>印度</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>澳大利亚</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>意大利</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>墨西哥</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>爱尔兰</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>俄罗斯</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>新加坡</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>沙特阿拉伯</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>印度尼西亚	</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>卢森堡</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>土耳其</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>丹麦</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>马来西亚</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>奥地利</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>挪威</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>波兰</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>泰国</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>瑞典</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>芬兰</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>英国</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>阿拉伯联合酋长国</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>比利时</td>
+        <td>1</td>
+    </tr>
+</table>
+        </div>
+
+    </div>
+
+    <script>
+    </script>
+    <script>
+        (function() {
+            containers = document.getElementsByClassName("chart-container");
+            if(containers.length > 0) {
+                containers[0].style.display = "block";
+            }
+        })()
+
+        function showChart(evt, chartID) {
+            let containers = document.getElementsByClassName("chart-container");
+            for (let i = 0; i < containers.length; i++) {
+                containers[i].style.display = "none";
+            }
+
+            let tablinks = document.getElementsByClassName("tablinks");
+            for (let i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = "tablinks";
+            }
+
+            document.getElementById(chartID).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <div class="box">
+        <div id="93ed617d3dcd48abb8246e07cd5e8322" class="chart-container" style="width:900px; height:500px;"></div>
+<script>
+var chart_93ed617d3dcd48abb8246e07cd5e8322 = echarts.init(
+    document.getElementById('93ed617d3dcd48abb8246e07cd5e8322'), 'white', {renderer: 'canvas'});
+var option_93ed617d3dcd48abb8246e07cd5e8322 = {
+"animation": true,
+"animationThreshold": 2000,
+"animationDuration": 1000,
+"animationEasing": "cubicOut",
+"animationDelay": 0,
+"animationDurationUpdate": 300,
+"animationEasingUpdate": "cubicOut",
+"animationDelayUpdate": 0,
+"color": [
+"#c23531",
+"#2f4554",
+"#61a0a8",
+"#d48265",
+"#749f83",
+"#ca8622",
+"#bda29a",
+"#6e7074",
+"#546570",
+"#c4ccd3",
+"#f05b72",
+"#ef5b9c",
+"#f47920",
+"#905a3d",
+"#fab27b",
+"#2a5caa",
+"#444693",
+"#726930",
+"#b2d235",
+"#6d8346",
+"#ac6767",
+"#1d953f",
+"#6950a1",
+"#918597"
+],
+"series": [
+{
+    "type": "pie",
+    "name": "\u7f8e\u56fd",
+    "clockwise": true,
+    "data": [
+        {
+            "name": "\u7ebd\u7ea6\u5dde",
+            "value": "19"
+        },
+        {
+            "name": "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde",
+            "value": "16"
+        },
+        {
+            "name": "\u4f50\u6cbb\u4e9a\u5dde",
+            "value": "5"
+        },
+        {
+            "name": "\u4f0a\u5229\u8bfa\u4f0a\u5dde",
+            "value": "12"
+        },
+        {
+            "name": "\u660e\u5c3c\u82cf\u8fbe\u5dde",
+            "value": "9"
+        },
+        {
+            "name": "\u4fc4\u4ea5\u4fc4\u5dde",
+            "value": "6"
+        },
+        {
+            "name": "\u534e\u76db\u987f\u5dde",
+            "value": "6"
+        },
+        {
+            "name": "\u7231\u8fbe\u8377\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u5fb7\u514b\u8428\u65af\u5dde",
+            "value": "6"
+        },
+        {
+            "name": "\u5317\u5361\u7f57\u6765\u7eb3\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u827e\u5965\u74e6\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u80af\u5854\u57fa\u5dde",
+            "value": "4"
+        },
+        {
+            "name": "\u9a6c\u8428\u8bf8\u585e\u5dde",
+            "value": "4"
+        },
+        {
+            "name": "\u7ef4\u5409\u5c3c\u4e9a\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u5a01\u65af\u5eb7\u8f9b\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u5185\u5e03\u62c9\u65af\u52a0\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u7279\u62c9\u534e\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u7530\u7eb3\u897f\u5dde",
+            "value": "3"
+        },
+        {
+            "name": "\u65b0\u6cfd\u897f\u5dde",
+            "value": "3"
+        },
+        {
+            "name": "\u5bc6\u6b47\u6839\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u5bc6\u82cf\u91cc\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u5370\u5730\u5b89\u7eb3\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u4f5b\u7f57\u91cc\u8fbe\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u9a6c\u91cc\u5170\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u7f57\u5fb7\u5c9b\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u963f\u62c9\u5df4\u9a6c\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u72b9\u4ed6\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u4fc4\u52d2\u5188\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u79d1\u7f57\u62c9\u591a\u5dde",
+            "value": "1"
+        },
+        {
+            "name": "\u963f\u80af\u8272\u5dde",
+            "value": "2"
+        },
+        {
+            "name": "\u4f0a\u5229\u8bfa\u5dde",
+            "value": "1"
+        }
+    ],
+    "radius": [
+        "55%",
+        "45%"
+    ],
+    "center": [
+        "50%",
+        "50%"
+    ],
+    "label": {
+        "show": true,
+        "position": "top",
+        "margin": 8,
+        "formatter": "{b}: {c}"
+    },
+    "rippleEffect": {
+        "show": true,
+        "brushType": "stroke",
+        "scale": 2.5,
+        "period": 4
+    }
+}
+],
+"legend": [
+{
+    "data": [
+        "\u7ebd\u7ea6\u5dde",
+        "\u52a0\u5229\u798f\u5c3c\u4e9a\u5dde",
+        "\u4f50\u6cbb\u4e9a\u5dde",
+        "\u4f0a\u5229\u8bfa\u4f0a\u5dde",
+        "\u660e\u5c3c\u82cf\u8fbe\u5dde",
+        "\u4fc4\u4ea5\u4fc4\u5dde",
+        "\u534e\u76db\u987f\u5dde",
+        "\u7231\u8fbe\u8377\u5dde",
+        "\u5fb7\u514b\u8428\u65af\u5dde",
+        "\u5317\u5361\u7f57\u6765\u7eb3\u5dde",
+        "\u827e\u5965\u74e6\u5dde",
+        "\u80af\u5854\u57fa\u5dde",
+        "\u9a6c\u8428\u8bf8\u585e\u5dde",
+        "\u7ef4\u5409\u5c3c\u4e9a\u5dde",
+        "\u5a01\u65af\u5eb7\u8f9b\u5dde",
+        "\u5185\u5e03\u62c9\u65af\u52a0\u5dde",
+        "\u7279\u62c9\u534e\u5dde",
+        "\u7530\u7eb3\u897f\u5dde",
+        "\u65b0\u6cfd\u897f\u5dde",
+        "\u5bc6\u6b47\u6839\u5dde",
+        "\u5bc6\u82cf\u91cc\u5dde",
+        "\u5370\u5730\u5b89\u7eb3\u5dde",
+        "\u5bbe\u5915\u6cd5\u5c3c\u4e9a\u5dde",
+        "\u4f5b\u7f57\u91cc\u8fbe\u5dde",
+        "\u9a6c\u91cc\u5170\u5dde",
+        "\u7f57\u5fb7\u5c9b\u5dde",
+        "\u963f\u62c9\u5df4\u9a6c\u5dde",
+        "\u72b9\u4ed6\u5dde",
+        "\u4fc4\u52d2\u5188\u5dde",
+        "\u79d1\u7f57\u62c9\u591a\u5dde",
+        "\u963f\u80af\u8272\u5dde",
+        "\u4f0a\u5229\u8bfa\u5dde"
+    ],
+    "selected": {},
+    "show": true,
+    "left": "1%",
+    "top": "12%",
+    "orient": "vertical",
+    "padding": 5,
+    "itemGap": 10,
+    "itemWidth": 25,
+    "itemHeight": 14
+}
+],
+"tooltip": {
+"show": true,
+"trigger": "item",
+"triggerOn": "mousemove|click",
+"axisPointer": {
+    "type": "line"
+},
+"textStyle": {
+    "fontSize": 14
+},
+"borderWidth": 0
+},
+"title": [
+{
+    "text": "Pie-Radius",
+    "padding": 5,
+    "itemGap": 10
+}
+]
+};
+chart_93ed617d3dcd48abb8246e07cd5e8322.setOption(option_93ed617d3dcd48abb8246e07cd5e8322);
+</script>
+        <div id="6fc446f419be4c5f9864efa02e6efd4a" class="chart-container" style="width:900px; height:500px;"></div>
+        <script>
+            var chart_6fc446f419be4c5f9864efa02e6efd4a = echarts.init(
+                document.getElementById('6fc446f419be4c5f9864efa02e6efd4a'), 'white', {renderer: 'canvas'});
+            var option_6fc446f419be4c5f9864efa02e6efd4a = {
+        "animation": true,
+        "animationThreshold": 2000,
+        "animationDuration": 1000,
+        "animationEasing": "cubicOut",
+        "animationDelay": 0,
+        "animationDurationUpdate": 300,
+        "animationEasingUpdate": "cubicOut",
+        "animationDelayUpdate": 0,
+        "color": [
+            "#c23531",
+            "#2f4554",
+            "#61a0a8",
+            "#d48265",
+            "#749f83",
+            "#ca8622",
+            "#bda29a",
+            "#6e7074",
+            "#546570",
+            "#c4ccd3",
+            "#f05b72",
+            "#ef5b9c",
+            "#f47920",
+            "#905a3d",
+            "#fab27b",
+            "#2a5caa",
+            "#444693",
+            "#726930",
+            "#b2d235",
+            "#6d8346",
+            "#ac6767",
+            "#1d953f",
+            "#6950a1",
+            "#918597"
+        ],
+        "series": [
+            {
+                "type": "bar",
+                "name": "\u7f8e\u56fd",
+                "data": [
+                    7,
+                    2,
+                    1,
+                    3,
+                    9,
+                    1,
+                    0,
+                    13,
+                    2,
+                    13,
+                    9,
+                    10,
+                    6,
+                    22,
+                    1,
+                    21,
+                    1
+                ],
+                "barCategoryGap": "20%",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "bar",
+                "name": "\u4e2d\u56fd",
+                "data": [
+                    10,
+                    4,
+                    7,
+                    0,
+                    9,
+                    5,
+                    6,
+                    12,
+                    12,
+                    2,
+                    4,
+                    23,
+                    7,
+                    5,
+                    5,
+                    10,
+                    8
+                ],
+                "barCategoryGap": "20%",
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                }
+            }
+        ],
+        "legend": [
+            {
+                "data": [
+                    "\u7f8e\u56fd",
+                    "\u4e2d\u56fd"
+                ],
+                "selected": {
+                    "\u7f8e\u56fd": true,
+                    "\u4e2d\u56fd": true
+                },
+                "show": true,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14
+            }
+        ],
+        "tooltip": {
+            "show": true,
+            "trigger": "item",
+            "triggerOn": "mousemove|click",
+            "axisPointer": {
+                "type": "line"
+            },
+            "textStyle": {
+                "fontSize": 14
+            },
+            "borderWidth": 0
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "axisLabel": {
+                    "show": true,
+                    "position": "top",
+                    "rotate": 50,
+                    "margin": 8
+                },
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "Bank securities",
+                    "Clothing textiles",
+                    "Communication equipment",
+                    "Entertainment Media",
+                    "Equipment manufacturing",
+                    "Infrastructure",
+                    "Logistics and warehousing",
+                    "Metal energy",
+                    "Petroleum coal",
+                    "Pharmaceutical",
+                    "Space defense",
+                    "Telecom Power",
+                    "Transportation",
+                    "Wholesale and retail",
+                    "chemical industry",
+                    "financial investment",
+                    "real estate"
+                ]
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ],
+        "title": [
+            {
+                "text": "Bar-\u57fa\u672c\u793a\u4f8b",
+                "subtext": "\u6211\u662f\u526f\u6807\u9898",
+                "padding": 5,
+                "itemGap": 10
+            }
+        ]
+    };
+            chart_6fc446f419be4c5f9864efa02e6efd4a.setOption(option_6fc446f419be4c5f9864efa02e6efd4a);
+        </script>
+                <style>
+    .fl-table {
+        margin: 20px;
+        border-radius: 5px;
+        font-size: 12px;
+        border: none;
+        border-collapse: collapse;
+        max-width: 100%;
+        white-space: nowrap;
+        word-break: keep-all;
+    }
+
+    .fl-table th {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .fl-table tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+
+    .fl-table tr:hover td {
+        background: #00d1b2;
+        color: #F8F8F8;
+    }
+
+    .fl-table td, .fl-table th {
+        border-style: none;
+        border-top: 1px solid #dbdbdb;
+        border-left: 1px solid #dbdbdb;
+        border-bottom: 3px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+        padding: .5em .55em;
+        font-size: 15px;
+    }
+
+    .fl-table td {
+        border-style: none;
+        font-size: 15px;
+        vertical-align: center;
+        border-bottom: 1px solid #dbdbdb;
+        border-left: 1px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+        height: 30px;
+    }
+
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+</style>
+<div id="397a8d77d7524826925f57b144203d7c" class="chart-container" style="">
+    <p class="title" style="font-size: 18px; font-weight:bold;" > Table</p>
+    <p class="subtitle" style="font-size: 12px;" > </p>
+    <table class="fl-table">
+<tr>
+<th>City name</th>
+<th>cnt</th>
+</tr>
+<tr>
+<td>纽约州</td>
+<td>19</td>
+</tr>
+<tr>
+<td>加利福尼亚州</td>
+<td>16</td>
+</tr>
+<tr>
+<td>佐治亚州</td>
+<td>5</td>
+</tr>
+<tr>
+<td>伊利诺伊州</td>
+<td>12</td>
+</tr>
+<tr>
+<td>明尼苏达州</td>
+<td>9</td>
+</tr>
+<tr>
+<td>俄亥俄州</td>
+<td>6</td>
+</tr>
+<tr>
+<td>华盛顿州</td>
+<td>6</td>
+</tr>
+<tr>
+<td>爱达荷州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>德克萨斯州</td>
+<td>6</td>
+</tr>
+<tr>
+<td>北卡罗来纳州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>艾奥瓦州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>肯塔基州</td>
+<td>4</td>
+</tr>
+<tr>
+<td>马萨诸塞州</td>
+<td>4</td>
+</tr>
+<tr>
+<td>维吉尼亚州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>威斯康辛州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>内布拉斯加州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>特拉华州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>田纳西州</td>
+<td>3</td>
+</tr>
+<tr>
+<td>新泽西州</td>
+<td>3</td>
+</tr>
+<tr>
+<td>密歇根州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>密苏里州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>印地安纳州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>宾夕法尼亚州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>佛罗里达州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>马里兰州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>罗德岛州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>阿拉巴马州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>犹他州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>俄勒冈州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>科罗拉多州</td>
+<td>1</td>
+</tr>
+<tr>
+<td>阿肯色州</td>
+<td>2</td>
+</tr>
+<tr>
+<td>伊利诺州</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+
+                <style>
+    .fl-table {
+        margin: 20px;
+        border-radius: 5px;
+        font-size: 12px;
+        border: none;
+        border-collapse: collapse;
+        max-width: 100%;
+        white-space: nowrap;
+        word-break: keep-all;
+    }
+
+    .fl-table th {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .fl-table tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+
+    .fl-table tr:hover td {
+        background: #00d1b2;
+        color: #F8F8F8;
+    }
+
+    .fl-table td, .fl-table th {
+        border-style: none;
+        border-top: 1px solid #dbdbdb;
+        border-left: 1px solid #dbdbdb;
+        border-bottom: 3px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+        padding: .5em .55em;
+        font-size: 15px;
+    }
+
+    .fl-table td {
+        border-style: none;
+        font-size: 15px;
+        vertical-align: center;
+        border-bottom: 1px solid #dbdbdb;
+        border-left: 1px solid #dbdbdb;
+        border-right: 1px solid #dbdbdb;
+        height: 30px;
+    }
+
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+</style>
+<div id="2ee2e0ea3e064ecb80830d74ae70c6b3" class="chart-container" style="">
+    <p class="title" style="font-size: 18px; font-weight:bold;" > Table</p>
+    <p class="subtitle" style="font-size: 12px;" > </p>
+    <table class="fl-table">
+<tr>
+<th>City name</th>
+<th>cnt</th>
+</tr>
+<tr>
+<td>北京</td>
+<td>56</td>
+</tr>
+<tr>
+<td>上海</td>
+<td>7</td>
+</tr>
+<tr>
+<td>香港</td>
+<td>7</td>
+</tr>
+<tr>
+<td>深圳</td>
+<td>7</td>
+</tr>
+<tr>
+<td>台湾</td>
+<td>10</td>
+</tr>
+<tr>
+<td>浙江</td>
+<td>5</td>
+</tr>
+<tr>
+<td>福建</td>
+<td>5</td>
+</tr>
+<tr>
+<td>广东</td>
+<td>6</td>
+</tr>
+<tr>
+<td>新疆</td>
+<td>2</td>
+</tr>
+<tr>
+<td>陕西</td>
+<td>2</td>
+</tr>
+<tr>
+<td>山西</td>
+<td>5</td>
+</tr>
+<tr>
+<td>湖北</td>
+<td>1</td>
+</tr>
+<tr>
+<td>江苏</td>
+<td>3</td>
+</tr>
+<tr>
+<td>山东</td>
+<td>4</td>
+</tr>
+<tr>
+<td>辽宁</td>
+<td>1</td>
+</tr>
+<tr>
+<td>吉林</td>
+<td>1</td>
+</tr>
+<tr>
+<td>安徽</td>
+<td>2</td>
+</tr>
+<tr>
+<td>甘肃</td>
+<td>1</td>
+</tr>
+<tr>
+<td>河南</td>
+<td>1</td>
+</tr>
+<tr>
+<td>河北</td>
+<td>2</td>
+</tr>
+<tr>
+<td>江西</td>
+<td>1</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+<script>
+</script>
+<script>
+(function() {
+    containers = document.getElementsByClassName("chart-container");
+    if(containers.length > 0) {
+        containers[0].style.display = "block";
+    }
+})()
+
+function showChart(evt, chartID) {
+    let containers = document.getElementsByClassName("chart-container");
+    for (let i = 0; i < containers.length; i++) {
+        containers[i].style.display = "none";
+    }
+
+    let tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = "tablinks";
+    }
+
+    document.getElementById(chartID).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<div class="as" >
+    <b>观察:</b>
+<p>2019年全世界500强上榜的中国公司在数量上首次超越美国,中国上榜企业 129 家，美国为 121 家。</p>
+<p>全球百强企业正在明显地向中美两个国家（尤其是中国）集中，全球 100 强企业的国家集聚度越来越高。</p>
+<b>结论:</b>
+    <p>从趋势上看，小国想要产生 “100 强” 或许会越来越难；而拥有较多 100 强企业的中国和美国，则很可能会产生更多的 100 强，尤其是中国的势头强劲，增速远远超过美国。</p>
+
+</div>
+</body>
+</html>

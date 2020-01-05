@@ -1,0 +1,17 @@
+body{
+    background:linear-gradient(to right ,lightsalmon, lightgrey);
+}
+
+.as{
+        background-color:salmon;
+		width:800px;
+        height:200px;
+        border-radius: 12px;
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-bottom:40px;
+        padding-top:20px;
+        padding-left: 10px;
+        padding-right: 10px;
+		font-size: 90%;
+}

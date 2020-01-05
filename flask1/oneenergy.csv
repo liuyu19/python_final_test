@@ -1,0 +1,251 @@
+﻿2019rate,2018rate,company,income,profit,country,location,industry
+1,1,WALMART,"$514,405.00 ","$6,670.00 ",United States,Bentonville,Wholesale and retail
+2,3,SINOPEC GROUP,"$414,649.90 ","$5,845.00 ",China,Beijing,Petroleum coal
+4,4,CHINA NATIONAL PETROLEUM,"$392,976.60 ","$2,270.50 ",China,Beijing,Petroleum coal
+5,2,STATE GRID,"$387,056.00 ","$8,174.80 ",China,Beijing,Telecom Power
+8,9,EXXON MOBIL,"$290,212.00 ","$20,840.00 ",United States,Irving,Petroleum coal
+11,11,APPLE,"$265,595.00 ","$59,531.00 ",United States,Cupertino,Communication equipment
+12,10,BERKSHIRE HATHAWAY,"$247,837.00 ","$4,021.00 ",United States,Omaha,Bank securities
+13,18,AMAZON.COM,"$232,887.00 ","$10,073.00 ",United States,Seattle,Wholesale and retail
+14,15,UNITEDHEALTH GROUP,"$226,247.00 ","$11,986.00 ",United States,Minnetonka,Pharmaceutical
+17,13,MCKESSON,"$214,319.00 ",$34.00 ,United States,Irving,Pharmaceutical
+19,17,CVS HEALTH,"$194,579.00 ",($594.00),United States,Woonsocket,Pharmaceutical
+21,23,CHINA STATE CONSTRUCTION ENGINEERING,"$181,524.50 ","$3,159.50 ",China,Beijing,Infrastructure
+23,24,HON HAI PRECISION INDUSTRY,"$175,617.00 ","$4,281.60 ",China,New Taipei City,Communication equipment
+25,20,AT&T,"$170,756.00 ","$19,370.00 ",United States,Dallas,Pharmaceutical
+26,26,INDUSTRIAL & COMMERCIAL BANK OF CHINA,"$168,979.00 ","$45,002.30 ",China,Beijing,Bank securities
+27,25,AMERISOURCEBERGEN,"$167,939.60 ","$1,658.40 ",United States,Chesterbrook,Pharmaceutical
+28,33,CHEVRON,"$166,339.00 ","$14,824.00 ",United States,San Ramon,Metal energy
+29,29,PING AN INSURANCE,"$163,597.40 ","$16,237.20 ",China,Shenzhen,Telecom Power
+30,22,FORD MOTOR,"$160,338.00 ","$3,677.00 ",United States,Dearborn,Transportation
+31,31,CHINA CONSTRUCTION BANK,"$151,110.80 ","$38,498.40 ",China,Beijing,Bank securities
+32,21,GENERAL MOTORS,"$147,049.00 ","$8,014.00 ",United States,Detroit,Transportation
+35,35,COSTCO WHOLESALE,"$141,576.00 ","$3,134.00 ",United States,Issaquah,Wholesale and retail
+36,40,AGRICULTURAL BANK OF CHINA,"$139,523.60 ","$30,656.50 ",China,Beijing,Bank securities
+37,52,ALPHABET,"$136,819.00 ","$30,736.00 ",United States,Mountain View,Entertainment Media
+38,34,CARDINAL HEALTH,"$136,809.00 ",$256.00 ,United States,Dublin,Pharmaceutical
+39,36,SAIC MOTOR,"$136,392.50 ","$5,443.80 ",China,Shanghai,Transportation
+40,43,WALGREENS BOOTS ALLIANCE,"$131,537.00 ","$5,024.00 ",United States,Deerfield,Pharmaceutical
+41,47,JPMORGAN CHASE & CO.,"$131,412.00 ","$32,474.00 ",United States,New York,Bank securities
+43,37,VERIZON COMMUNICATIONS,"$130,863.00 ","$15,528.00 ",United States,New York,Telecom Power
+44,46,BANK OF CHINA,"$127,714.10 ","$27,225.20 ",China,Beijing,Bank securities
+47,39,KROGER,"$121,162.00 ","$3,110.00 ",United States,Cincinnati,Wholesale and retail
+48,41,GENERAL ELECTRIC,"$120,268.00 ","($22,355.00)",United States,Boston,Telecom Power
+49,48,FANNIE MAE,"$120,101.00 ","$15,959.00 ",United States,Washington,real estate
+51,42,CHINA LIFE INSURANCE,"$116,171.50 ","($2,566.90)",China,Beijing,Telecom Power
+54,67,PHILLIPS 66,"$114,217.00 ","$5,595.00 ",United States,Houston,Metal energy
+55,56,CHINA RAILWAY ENGINEERING GROUP,"$112,132.70 ","$1,240.90 ",China,Beijing,Infrastructure
+56,53,CHINA MOBILE COMMUNICATIONS,"$112,096.00 ","$11,745.30 ",China,Beijing,Telecom Power
+57,74,VALERO ENERGY,"$111,407.00 ","$3,122.00 ",United States,San Antonio,Metal energy
+58,60,BANK OF AMERICA CORP.,"$110,584.00 ","$28,147.00 ",United States,Charlotte,Bank securities
+59,58,CHINA RAILWAY CONSTRUCTION,"$110,455.90 ","$1,186.90 ",China,Beijing,Infrastructure
+60,71,MICROSOFT,"$110,360.00 ","$16,571.00 ",United States,Redmond,Telecom Power
+61,72,HUAWEI INVESTMENT & HOLDING,"$109,030.40 ","$8,953.90 ",China,Shenzhen,Communication equipment
+62,57,HOME DEPOT,"$108,203.00 ","$11,121.00 ",United States,Atlanta,Equipment manufacturing
+63,87,CHINA NATIONAL OFFSHORE OIL,"$108,130.40 ","$7,331.10 ",China,Beijing,Petroleum coal
+67,--,CHINA DEVELOPMENT BANK,"$103,072.90 ","$16,744.30 ",China,Beijing,Bank securities
+68,64,BOEING,"$101,127.00 ","$10,460.00 ",United States,Chicago,Space defense
+69,62,WELLS FARGO,"$101,060.00 ","$22,393.00 ",United States,San Francisco,Bank securities
+71,76,CITIGROUP,"$97,120.00 ","$18,045.00 ",United States,New York,Bank securities
+72,131,MARATHON PETROLEUM,"$97,102.00 ","$2,780.00 ",United States,Findlay,Metal energy
+75,80,COMCAST,"$94,507.00 ","$11,731.00 ",United States,Philadelphia,Telecom Power
+79,70,ANTHEM,"$92,105.00 ","$3,750.00 ",United States,Indianapolis,financial investment
+80,86,CHINA RESOURCES,"$91,986.00 ","$3,474.60 ",China,Hong Kong,real estate
+82,65,DONGFENG MOTOR,"$90,934.20 ","$1,599.70 ",China,Wuhan,Transportation
+84,93,DELL TECHNOLOGIES,"$90,621.00 ","($2,310.00)",United States,Round Rock,Equipment manufacturing
+87,125,CHINA FAW GROUP,"$89,804.70 ","$2,660.30 ",China,Changchun,Transportation
+88,98,SINOCHEM GROUP,"$89,358.10 ",$701.40 ,China,Beijing,real estate
+93,91,CHINA COMMUNICATIONS CONSTRUCTION,"$88,140.90 ","$1,585.20 ",China,Beijing,Infrastructure
+97,96,PACIFIC CONSTRUCTION GROUP,"$86,622.60 ","$3,390.90 ",China,Urumqi,Infrastructure
+100,147,DUPONT,"$85,977.00 ","$3,844.00 ",United States,Wilmington,Equipment manufacturing
+101,113,CHINA POST GROUP,"$85,627.90 ","$4,133.60 ",China,Beijing,Logistics and warehousing
+107,101,CHINA ENERGY INVESTMENT,"$81,977.70 ","$3,531.40 ",China,Beijing,Telecom Power
+108,95,STATE FARM INSURANCE COS.,"$81,732.20 ","$8,788.40 ",United States,Bloomington,financial investment
+109,100,JOHNSON & JOHNSON,"$81,581.00 ","$15,297.00 ",United States,New Brunswick,Pharmaceutical
+111,110,CHINA SOUTHERN POWER GRID,"$80,963.60 ","$1,782.40 ",China,Guangzhou,Telecom Power
+112,109,CHINA MINMETALS,"$80,076.40 ",($373.60),China,Beijing,Metal energy
+114,92,INTERNATIONAL BUSINESS MACHINES,"$79,591.00 ","$8,728.00 ",United States,Armonk,Equipment manufacturing
+119,111,AMER INTERNATIONAL GROUP,"$76,363.10 ","$1,483.00 ",China,Shenzhen,Metal energy
+121,117,PEOPLE'S INSURANCE CO. OF CHINA,"$75,377.30 ","$1,952.00 ",China,Beijing,Telecom Power
+122,116,TARGET,"$75,356.00 ","$2,937.00 ",United States,Minneapolis,Wholesale and retail
+128,106,FREDDIE MAC,"$73,598.00 ","$9,235.00 ",United States,McLean,financial investment
+129,124,BEIJING AUTOMOTIVE GROUP,"$72,677.40 ","$1,097.70 ",China,Beijing,Transportation
+132,138,UNITED PARCEL SERVICE,"$71,861.00 ","$4,791.00 ",United States,Atlanta,Equipment manufacturing
+133,128,LOWE'S,"$71,309.00 ","$2,314.00 ",United States,Mooresville,Wholesale and retail
+134,122,COFCO,"$71,223.30 ",$337.80 ,China,Beijing,Wholesale and retail
+135,146,INTEL,"$70,848.00 ","$21,053.00 ",United States,Santa Clara,Equipment manufacturing
+136,123,U.S. POSTAL SERVICE,"$70,660.00 ","($3,913.00)",United States,Washington,Transportation
+137,149,CITIC GROUP,"$70,659.00 ","$4,566.00 ",China,Beijing,financial investment
+138,230,CHINA EVERGRANDE GROUP,"$70,478.90 ","$5,652.60 ",China,Shenzhen,financial investment
+139,181,JD.COM,"$69,847.60 ",($376.70),China,Beijing,Wholesale and retail
+140,140,CHINA NORTH INDUSTRIES GROUP,"$68,777.70 ",$966.40 ,China,Beijing,Equipment manufacturing 
+141,141,CHINA TELECOMMUNICATIONS,"$68,709.50 ","$1,664.60 ",China,Beijing,Telecom Power
+142,136,METLIFE,"$67,941.00 ","$5,123.00 ",United States,New York,financial investment
+144,167,CHEMCHINA,"$67,397.50 ","($2,207.60)",China,Beijing,chemical industry
+146,135,PROCTER & GAMBLE,"$66,832.00 ","$9,750.00 ",United States,Cincinnati,chemical industry
+148,159,UNITED TECHNOLOGIES,"$66,501.00 ","$5,269.00 ",United States,Farmington,Space defense
+149,162,CHINA BAOWU STEEL GROUP,"$66,310.00 ","$2,168.20 ",China,Shanghai,Metal energy
+150,168,BANK OF COMMUNICATIONS,"$65,644.80 ","$11,131.30 ",China,Shanghai,Bank securities
+151,161,AVIATION INDUSTRY CORP. OF CHINA,"$65,534.40 ",$695.00 ,China,Beijing,Space defense
+152,155,FEDEX,"$65,450.00 ","$4,572.00 ",United States,Memphis,Transportation
+154,144,PEPSICO,"$64,661.00 ","$12,515.00 ",United States,Purchase,Wholesale and retail
+155,152,ARCHER DANIELS MIDLAND,"$64,341.00 ","$1,810.00 ",United States,Chicago,Wholesale and retail
+156,160,PRUDENTIAL FINANCIAL,"$62,992.00 ","$4,074.00 ",United States,Newark,financial investment
+161,182,POWERCHINA,"$61,224.00 ",$803.80 ,China,Beijing,Telecom Power
+165,157,ALBERTSONS COS.,"$60,534.50 ",$131.10 ,United States,Boise,Wholesale and retail
+168,210,CENTENE,"$60,116.00 ",$900.00 ,United States,St. Louis,financial investment
+169,194,SINOPHARM,"$59,980.20 ",$884.40 ,China,Beijing,Pharmaceutical
+170,176,WALT DISNEY,"$59,434.00 ","$12,598.00 ",United States,Burbank,Entertainment Media
+172,174,SYSCO,"$58,727.30 ","$1,430.80 ",United States,Houston,Wholesale and retail
+173,190,HP,"$58,472.00 ","$5,327.00 ",United States,Palo Alto,Equipment manufacturing
+177,353,COUNTRY GARDEN HOLDINGS,"$57,308.70 ","$5,233.50 ",China,Foshan,real estate
+179,183,HUMANA,"$56,912.00 ","$1,683.00 ",United States,Louisville,Pharmaceutical
+181,235,HENGLI GROUP,"$56,198.60 ",$582.90 ,China,Suzhou City,Clothing textiles
+182,300,ALIBABA GROUP HOLDING,"$56,147.20 ","$13,094.40 ",China,Hangzhou,Wholesale and retail
+184,274,FACEBOOK,"$55,838.00 ","$22,112.00 ",United States,Menlo Park,Entertainment Media
+188,213,CHINA MERCHANTS BANK,"$55,063.50 ","$12,179.00 ",China,Shenzhen,Bank securities
+189,202,GUANGZHOU AUTOMOBILE INDUSTRY GROUP,"$55,037.20 ",$885.50 ,China,Guangzhou,Transportation
+190,238,CATERPILLAR,"$54,722.00 ","$6,147.00 ",United States,Deerfield,Equipment manufacturing
+194,217,ENERGY TRANSFER,"$54,436.00 ","$1,694.00 ",United States,Dallas,Transportation
+197,200,LOCKHEED MARTIN,"$53,762.00 ","$5,046.00 ",United States,Bethesda,Space defense
+198,187,PFIZER,"$53,647.00 ","$11,153.00 ",United States,New York,Pharmaceutical
+199,220,CHINA PACIFIC INSURANCE (GROUP,"$53,572.10 ","$2,724.10 ",China,Shanghai,Telecom Power
+202,252,GREENLAND HOLDING GROUP,"$52,720.90 ","$1,719.60 ",China,Shanghai,financial investment
+203,243,CHINA NATIONAL BUILDING MATERIAL GROUP,"$52,610.60 ",$69.40 ,China,Beijing,Logistics and warehousing
+204,259,GOLDMAN SACHS GROUP,"$52,528.00 ","$10,459.00 ",United States,New York,Bank securities
+211,234,SHANDONG ENERGY GROUP,"$51,245.60 ",$573.00 ,China,Jinan,Metal energy
+212,240,LENOVO GROUP,"$51,037.90 ",$596.30 ,China,Hong Kong,Communication equipment
+213,237,INDUSTRIAL BANK,"$50,991.40 ","$9,164.50 ",China,Fuzhou,Bank securities
+214,239,HBIS GROUP,"$50,920.60 ",($77.80),China,Shijiazhuang,Equipment manufacturing 
+216,227,SHANGHAI PUDONG DEVELOPMENT BANK,"$50,545.70 ","$8,453.00 ",China,Shanghai,Bank securities
+218,249,MORGAN STANLEY,"$50,193.00 ","$8,748.00 ",United States,New York,financial investment
+220,267,ZHEJIANG GEELY HOLDING GROUP,"$49,665.40 ","$1,969.30 ",China,Hangzhou,financial investment
+225,212,CISCO SYSTEMS,"$49,330.00 ",$110.00 ,United States,San Jose,Telecom Power
+229,263,CIGNA,"$48,650.00 ","$2,637.00 ",United States,Bloomfield,financial investment
+232,251,CHINA MINSHENG BANKING,"$47,981.30 ","$7,608.40 ",China,Beijing,Bank securities
+235,207,AMERICAN INTERNATIONAL GROUP,"$47,389.00 ",($6.00),United States,New York,financial investment
+237,331,TENCENT HOLDINGS,"$47,272.70 ","$11,900.60 ",China,Shenzhen,financial investment
+241,215,HCA HEALTHCARE,"$46,677.00 ","$3,787.00 ",United States,Nashville,Pharmaceutical
+242,312,CHINA POLY GROUP,"$46,207.10 ","$1,495.90 ",China,Beijing,real estate
+243,245,CHINA SHIPBUILDING INDUSTRY,"$46,114.40 ",$930.20 ,China,Beijing,Equipment manufacturing 
+244,280,CHINA MERCHANTS GROUP,"$45,925.70 ","$4,468.70 ",China,Hong Kong,Transportation
+247,233,BUNGE,"$45,743.00 ",$267.00 ,United States,White Plains,Wholesale and retail
+249,270,WUCHAN ZHONGDA GROUP,"$45,435.00 ",$362.40 ,China,Hangzhou,Logistics and warehousing
+250,256,SINOMACH,"$45,424.00 ",$487.80 ,China,Beijing,Logistics and warehousing
+251,222,ALUMINUM CORP. OF CHINA,"$45,383.80 ",$112.70 ,China,Beijing,Equipment manufacturing 
+254,332,CHINA VANKE,"$44,912.60 ","$5,105.70 ",China,Shenzhen,real estate
+257,260,AMERICAN AIRLINES GROUP,"$44,541.00 ","$1,412.00 ",United States,Fort Worth,Space defense
+259,285,PEGATRON,"$44,453.30 ",$368.70 ,China,Taipei,Communication equipment
+260,266,DELTA AIR LINES,"$44,438.00 ","$3,935.00 ",United States,Atlanta,Space defense
+262,273,CHINA UNITED NETWORK COMMUNICATIONS,"$43,974.40 ",$616.90 ,China,Beijing,Telecom Power
+263,288,SHAANXI YANCHANG PETROLEUM (GROUP,"$43,858.10 ",$306.50 ,China,Xi'an,Petroleum coal
+264,264,CHARTER COMMUNICATIONS,"$43,634.00 ","$1,230.00 ",United States,Stamford,Telecom Power
+268,258,NEW YORK LIFE INSURANCE,"$43,425.30 ",$880.00 ,United States,New York,financial investment
+270,327,AMERICAN EXPRESS,"$43,281.00 ","$6,921.00 ",United States,New York,financial investment
+271,247,NATIONWIDE,"$43,270.00 ",$512.60 ,United States,Columbus,financial investment
+273,185,SHANDONG WEIQIAO PIONEERING GROUP,"$43,008.40 ",$852.60 ,China,Shandong,Clothing textiles
+276,261,BEST BUY,"$42,879.00 ","$1,464.00 ",United States,Richfield,Wholesale and retail
+277,362,XIAMEN C&D,"$42,726.30 ",$631.30 ,China,Xiamen,Clothing textiles
+278,255,LIBERTY MUTUAL INSURANCE GROUP,"$42,685.00 ","$2,160.00 ",United States,Boston,financial investment
+279,335,CHINA COSCO SHIPPING,"$42,607.70 ","$1,554.50 ",China,Shanghai,Logistics and warehousing
+280,283,JARDINE MATHESON,"$42,527.00 ","$1,732.00 ",China,Hong Kong,Wholesale and retail
+281,294,SHAANXI COAL & CHEMICAL INDUSTRY,"$42,418.80 ",$90.80 ,China,Xi'an,Metal energy
+283,371,CHINA NATIONAL AVIATION FUEL GROUP,"$42,370.90 ",$476.20 ,China,Beijing,Space defense
+285,276,MERCK,"$42,294.00 ","$6,220.00 ",United States,Kenilworth,Pharmaceutical
+286,289,CHINA HUANENG GROUP,"$42,280.90 ",$8.90 ,China,Beijing,Telecom Power
+289,322,CHINA EVERBRIGHT GROUP,"$41,879.70 ","$1,890.80 ",China,Beijing,Pharmaceutical
+290,275,HONEYWELL INTERNATIONAL,"$41,802.00 ","$6,765.00 ",United States,Morris Plains,Space defense
+291,360,XIAMEN ITG HOLDING GROUP,"$41,437.50 ",$62.80 ,China,Xiamen,financial investment
+293,301,UNITED CONTINENTAL HOLDINGS,"$41,303.00 ","$2,129.00 ",United States,Chicago,Space defense
+297,319,TIAA,"$41,052.10 ","$1,560.50 ",United States,New York,financial investment
+301,361,CEDAR HOLDINGS GROUP,"$40,640.80 ",$844.70 ,China,Guangzhou,chemical industry
+306,297,TYSON FOODS,"$40,052.00 ","$3,024.00 ",United States,Springdale,Wholesale and retail
+307,302,ORACLE,"$39,831.00 ","$3,825.00 ",United States,Redwood City,Telecom Power
+308,293,ALLSTATE,"$39,815.00 ","$2,252.00 ",United States,Northbrook,financial investment
+309,351,WORLD FUEL SERVICES,"$39,750.30 ",$127.70 ,United States,Miami,Metal energy
+312,323,MIDEA GROUP,"$39,581.60 ","$3,058.50 ",China,Foshan,Logistics and warehousing
+314,357,MASSACHUSETTS MUTUAL LIFE INSURANCE,"$39,267.20 ",$397.90 ,United States,Springfield,financial investment
+317,321,TJX,"$38,972.90 ","$3,059.80 ",United States,Framingham,Clothing textiles
+318,399,YANKUANG GROUP,"$38,887.30 ",($258.00),China,Zoucheng,Petroleum coal
+319,363,CONOCOPHILLIPS,"$38,727.00 ","$6,257.00 ",United States,Houston,Petroleum coal
+322,346,CHINA AEROSPACE SCIENCE & INDUSTRY,"$37,869.80 ","$1,846.40 ",China,Beijing,Space defense
+323,343,CHINA AEROSPACE SCIENCE & TECHNOLOGY,"$37,727.60 ","$2,463.70 ",China,Beijing,Space defense
+329,394,DEERE,"$37,357.70 ","$2,368.40 ",United States,Moline,Wholesale and retail
+330,315,TECH DATA,"$37,239.00 ",$340.60 ,United States,Clearwater,Telecom Power
+333,427,SUNING.COM GROUP,"$37,032.20 ","$2,014.80 ",China,Nanjing,Wholesale and retail
+337,403,ENTERPRISE PRODUCTS PARTNERS,"$36,534.20 ","$4,172.40 ",United States,Houston,Metal energy
+338,375,XMXYG,"$36,503.70 ",$199.30 ,China,Xiamen,real estate
+340,364,JIANGSU SHAGANG GROUP,"$36,440.90 ","$1,869.20 ",China,Zhangjiagang,Metal energy
+341,340,NIKE,"$36,397.00 ","$1,933.00 ",United States,Beaverton,Clothing textiles
+342,334,PUBLIX SUPER MARKETS,"$36,395.70 ","$2,381.20 ",United States,Lakeland,Wholesale and retail
+343,383,GENERAL DYNAMICS,"$36,193.00 ","$3,345.00 ",United States,Falls Church,Metal energy
+344,356,EXELON,"$35,985.00 ","$2,010.00 ",United States,Chicago,Metal energy
+347,359,JIZHONG ENERGY GROUP,"$35,721.30 ",($152.80),China,Xingtai,Metal energy
+352,374,CK HUTCHISON HOLDINGS,"$35,361.20 ","$4,976.30 ",China,Hong Kong,real estate
+358,370,JIANGXI COPPER,"$34,870.00 ",$131.40 ,China,Guixi,Metal energy
+359,--,CRRC GROUP,"$34,673.00 ",$486.60 ,China,Beijing,Transportation
+361,--,TSINGSHAN HOLDING GROUP,"$34,242.20 ",$578.60 ,China,Wenzhou,financial investment
+362,395,STATE POWER INVESTMENT,"$34,229.20 ",$170.70 ,China,Beijing,Telecom Power
+363,368,TAIWAN SEMICONDUCTOR MANUFACTURING,"$34,218.20 ","$12,043.90 ",China,Hsinchu,Telecom Power
+364,333,CHINA ENERGY ENGINEERING GROUP,"$34,176.50 ",$432.60 ,China,Beijing,Metal energy
+365,354,QUANTA COMPUTER,"$34,102.60 ",$501.50 ,China,Taoyuan,Communication equipment
+366,452,PLAINS GP HOLDINGS,"$34,055.00 ",$334.00 ,United States,Houston,Metal energy
+367,242,CHINA SOUTH INDUSTRIES GROUP,"$33,895.80 ",$268.10 ,China,Beijing,Equipment manufacturing 
+368,464,YANGO LONGKING GROUP,"$33,394.80 ",$613.60 ,China,Fuzhou,financial investment
+369,--,JINCHUAN GROUP,"$33,391.60 ",$234.00 ,China,Jinchang City,chemical industry
+370,388,CHINA ELECTRONICS TECHNOLOGY GROUP,"$33,323.80 ","$1,755.20 ",China,Beijing,Telecom Power
+375,369,CHINA ELECTRONICS,"$33,055.70 ",$350.30 ,China,Beijing,Telecom Power
+379,386,SCHLUMBERGER,"$32,815.00 ","$2,138.00 ",United States,Houston,Metal energy
+380,376,3M,"$32,765.00 ","$5,349.00 ",United States,St. Paul,Infrastructure
+381,422,ABBVIE,"$32,753.00 ","$5,687.00 ",United States,North Chicago,Pharmaceutical
+383,372,CHS,"$32,683.30 ",$775.90 ,United States,Inver Grove Heights,Metal energy
+385,428,ANSTEEL GROUP,"$32,619.40 ",($254.50),China,Anshan,Metal energy
+386,397,CHINA HUADIAN,"$32,421.40 ",$464.40 ,China,Beijing,Telecom Power
+387,391,CAPITAL ONE FINANCIAL,"$32,377.00 ","$6,015.00 ",United States,McLean,financial investment
+388,295,AIA GROUP,"$32,369.00 ","$2,597.00 ",China,Hong Kong,Telecom Power
+390,404,COMPAL ELECTRONICS,"$32,102.80 ",$295.70 ,China,Taipei,Communication equipment
+391,437,PROGRESSIVE,"$31,979.00 ","$2,615.30 ",United States,Mayfield Village,financial investment
+394,436,CPC,"$31,928.90 ","$1,137.60 ",China,Kaohsiung,Petroleum coal
+395,328,COCA-COLA,"$31,856.00 ","$6,434.00 ",United States,Atlanta,Wholesale and retail
+400,390,UNITED SERVICES AUTOMOBILE ASSN.,"$31,367.80 ","$2,291.90 ",United States,San Antonio,Transportation
+402,431,SHOUGANG GROUP,"$31,103.80 ",$84.20 ,China,Beijing,Metal energy
+404,409,HEWLETT PACKARD ENTERPRISE,"$30,852.00 ","$1,908.00 ",United States,Palo Alto,Telecom Power
+408,433,ABBOTT LABORATORIES,"$30,578.00 ","$2,368.00 ",United States,Abbott Park,Wholesale and retail
+409,--,MICRON TECHNOLOGY,"$30,391.00 ","$14,135.00 ",United States,Boise,Equipment manufacturing
+413,407,TRAVELERS COS.,"$30,282.00 ","$2,523.00 ",United States,New York,financial investment
+414,--,GREE ELECTRICAL APPLIANCES,"$30,239.40 ","$3,961.30 ",China,Zhuhai,Equipment manufacturing 
+416,461,NORTHROP GRUMMAN,"$30,095.00 ","$3,229.00 ",United States,Falls Church,Space defense
+421,440,ARROW ELECTRONICS,"$29,676.80 ",$716.20 ,United States,Centennial,Telecom Power
+422,411,PHILIP MORRIS INTERNATIONAL,"$29,625.00 ","$7,911.00 ",United States,New York,Wholesale and retail
+424,432,WISTRON,"$29,509.50 ",$162.80 ,China,Taipei,Equipment manufacturing 
+429,401,NORTHWESTERN MUTUAL,"$29,124.00 ",$783.00 ,United States,Milwaukee,financial investment
+438,468,CHINA DATANG,"$28,654.90 ",$323.40 ,China,Beijing,Telecom Power
+439,456,XINJIANG GUANGHUI INDUSTRY INVESTMENT,"$28,564.00 ",$137.00 ,China,Urumqi,real estate
+441,--,ANHUI CONCH GROUP,"$28,499.00 ","$1,628.90 ",China,Wuhu,chemical industry
+442,--,HUAXIA LIFE INSURANCE,"$28,492.80 ",$398.80 ,China,Beijing,Telecom Power
+448,499,HAIER SMART HOME,"$27,713.60 ","$1,124.80 ",China,Qingdao,Equipment manufacturing 
+449,400,INTL FCSTONE,"$27,622.70 ",$55.50 ,United States,New York,financial investment
+451,465,CHINA TAIPING INSURANCE GROUP,"$27,485.80 ",$434.00 ,China,Hong Kong,Telecom Power
+454,--,PBF ENERGY,"$27,186.10 ",$128.30 ,United States,Parsippany,Metal energy
+455,410,CATHAY LIFE INSURANCE,"$27,183.40 ","$1,001.50 ",China,Taipei,Telecom Power
+460,467,RAYTHEON,"$27,058.00 ","$2,909.00 ",United States,Waltham,Space defense
+461,--,TONGLING NONFERROUS METALS GROUP,"$26,846.70 ",($70.20),China,Tongling,Metal energy
+462,495,SHANXI LUAN MINING GROUP,"$26,840.50 ",$1.20 ,China,Changzhi,Petroleum coal
+464,497,DATONG COAL MINE GROUP,"$26,697.60 ",($181.80),China,Datong,Petroleum coal
+465,--,SHANXI COKING COAL GROUP,"$26,692.80 ",$141.60 ,China,Taiyuan,Petroleum coal
+468,--,XIAOMI,"$26,443.50 ","$2,049.10 ",China,Beijing,Communication equipment
+469,494,YANGQUAN COAL INDUSTRY GROUP,"$26,290.10 ",($131.10),China,Yangquan,Petroleum coal
+471,479,FUBON FINANCIAL HOLDING,"$26,276.50 ","$1,583.40 ",China,Taipei,financial investment
+472,451,KRAFT HEINZ,"$26,268.00 ","($10,192.00)",United States,Pittsburgh,Wholesale and retail
+473,--,HAILIANG GROUP,"$26,251.00 ",$237.60 ,China,Hangzhou,Equipment manufacturing 
+475,381,XINXING CATHAY INTERNATIONAL GROUP,"$26,207.90 ",$103.60 ,China,Beijing,Clothing textiles
+480,459,MONDELEZ INTERNATIONAL,"$25,938.00 ","$3,381.00 ",United States,Deerfield,Wholesale and retail
+482,481,SHANXI JINCHENG ANTHRACITE COAL MINING GROUP,"$25,844.70 ",$52.60 ,China,Jincheng,Petroleum coal
+484,496,HENAN ENERGY & CHEMICAL,"$25,781.90 ",($133.30),China,Zhengzhou,chemical industry
+485,--,CHINA GENERAL TECHNOLOGY,"$25,779.10 ",$442.70 ,China,Beijing,financial investment
+486,490,U.S. BANCORP,"$25,775.00 ","$7,096.00 ",United States,Minneapolis,Bank securities
+487,473,MACY'S,"$25,739.00 ","$1,108.00 ",United States,Cincinnati,Wholesale and retail
+489,--,DOLLAR GENERAL,"$25,625.00 ","$1,589.50 ",United States,Goodlettsville,Wholesale and retail
+492,--,FORMOSA PETROCHEMICAL,"$25,462.80 ","$1,993.40 ",China,Mailiao,Petroleum coal
+496,--,NUCOR,"$25,067.30 ","$2,360.80 ",United States,Charlotte,Metal energy
+498,489,TAIKANG INSURANCE GROUP,"$24,931.70 ","$1,794.60 ",China,Beijing,Telecom Power
