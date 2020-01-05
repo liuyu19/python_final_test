@@ -20,12 +20,13 @@
 
 ## 具体描述：
 1.HTML档描述：  
-* results2.html负责下拉框选择不同的选项，修改了css使背景颜色渐变，增加了<header>并且额外设置了字体的大小和格式使之居中，突出主题。定义下拉框的标签<select>我们运用了if函数来筛选数据，传递后生成表格与柱状图。
+* results2.html负责下拉框选择不同的选项，修改了css使背景颜色渐变，增加了<header>并且额外设置了字体的大小和格式使之居中，突出主题。定义下拉框的标签"select"我们运用了if函数来筛选数据，传递后生成表格与柱状图。
 * example1.html是代码生成的柱状图。
 * render.html负责页面图表（pyecharts）的展示与结论，我们增加了选择按钮和渐变背景，认真配置了css以符合表格的颜色，增加美观性。同时插入了box修改了边框形状（border-radius），使边框半径改变，从而呈现曲线。  
  
 2.PYTHON档描述：    
-* 我们小组一共有两个py文档，jiaohu.py用来保证页面的跳转和交互功能，在这里我一定要强调一下我遇到的困难，也可以给各位同学一个建议，在我利用Python增删改查等方法筛选好中国和美国的数据之后，导入csv数据文档（pandas 大法读内容, 用dropna()丢缺失值, 用unique()取唯一值,使取值）却意外的发现无法实现flask，缺少cufflinks模块，我尝试了市面上的所有方法，包括但不限于直接点击红色灯泡安装，利用环境变量安装，开cmd用命令行pip install cufflinks安装，最后尝试了朴素方法重装conda以及pycharm解决了这个问题。fig = dfs.iplot(kind="bar", x="aa",y="bb",asFigure=True)这里需要自己更改x和y轴的变量以产出数据。regions_available = list(df1.industry.dropna().unique())可以筛选自己想要的地区和国家，@app.route这里route路由有：源页面，hurun的页面以及render的页面。用render_template()方法传递表格和数据，def（）定义函数。利用get可以到达result.html。**if __name__ == '__main__':app.run(debug=True,port=8000)** ，现在详细介绍另一个坑，因为电脑上有vpn软件，占用了端口，当时以致无法运行，后来更改了端口号才可以整个完整运行。
+* 我们小组一共有两个py文档，jiaohu.py用来保证页面的跳转和交互功能。在这里我一定要强调一下我遇到的困难，也可以给各位同学一个建议。在我利用Python增删改查等方法筛选好中国和美国的数据之后，导入csv数据文档（pandas 大法读内容, 用dropna()丢缺失值, 用unique()取唯一值,使取值）却意外的发现无法实现flask，缺少cufflinks模块，我尝试了市面上的所有方法，包括但不限于直接点击红色灯泡安装，利用环境变量安装，开cmd用命令行pip install cufflinks安装，最后尝试了朴素方法重装conda以及pycharm解决了这个问题。  
+* fig = dfs.iplot(kind="bar", x="aa",y="bb",asFigure=True)这里需要自己更改x和y轴的变量以产出数据。regions_available = list(df1.industry.dropna().unique()) 可以筛选自己想要的地区和国家， @app.route这里route路由有：源页面，hurun的页面以及render的页面。用render_template()方法传递表格和数据，def（）定义函数。利用get可以到达result.html。if __name__ == '__main__':app.run(debug=True,port=8000) ，现在详细介绍另一个坑，因为电脑上有vpn软件，占用了端口，当时以致无法运行，后来更改了端口号才可以整个完整运行。
 * vsearch.py负责数据的可视化。 
 
 3.WEBAPP的动作描述：  
